@@ -1,0 +1,74 @@
+/* --- Encabezado principal (h1) --- */
+h1 {
+    color: red;
+    font-family: 'Kenia', sans-serif;
+    font-size: 28pt;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* --- Encabezados secundarios (h2) --- */
+h2 {
+    color: orange;
+    font-family: 'Kenia', sans-serif;
+    font-size: 22pt;
+    font-weight: 400;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px gray;
+}
+
+/* --- Párrafos generales --- */
+p {
+    color: gray;
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* --- Párrafos dentro de secciones --- */
+section p {
+    color: black;
+}
+
+/* --- Texto en negrita dentro de párrafos --- */
+p b {
+    color: red;
+    font-weight: 900;
+}
+
+/* --- Colores alternos para los artículos --- */
+article:nth-child(odd) {
+    background-color: green;
+}
+
+article:nth-child(even) {
+    background-color: lightgreen;
+}
+
+/* --- Selectores por ID --- */
+#barra-navegacion {
+    background-color: #e3e3e3;
+    border: 2px solid #555;
+    padding: 10px;
+}
+
+#imagenes {
+    background-color: #f7e9c8;
+    padding: 8px;
+    text-align: center;
+}
+
+#pie-pagina {
+    background-color: #ccc;
+    font-size: 10pt;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo-principal {
+    letter-spacing: 2px;
+}
